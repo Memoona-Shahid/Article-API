@@ -13,16 +13,11 @@ namespace WebApi1.Model
         
        public string? Title { get; set; }
 
-        public string? Link { get; set; }
-
-        
+        public string? Link { get; set; }        
         public string? Description { get; set; }
-
         public string? Content { get; set; }
-        public string? Image_Url { get; set; }
-        
-        public string? Source_Name { get; set; }
-        
+        public string? Image_Url { get; set; }        
+        public string? Source_Name { get; set; }        
         public string? Source_Url { get; set; }
         public string? Source_Icon { get; set; }
         public string? Language { get; set; }
